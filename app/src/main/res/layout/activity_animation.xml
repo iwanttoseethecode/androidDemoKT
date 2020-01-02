@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newAnimation.AnimationActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="按钮1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="clickBtn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="按钮2"
+        android:onClick="clickBtn2"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn2"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="按钮3"
+        android:onClick="clickBtn3"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn3"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="按钮4"
+        android:onClick="clickBtn4"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn4"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="同时动画"
+        android:onClick="clickBtn5"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn5"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="按钮6"
+        android:onClick="clickBtn6"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn6"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="动画顺序"
+        android:onClick="clickBtn7"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn7"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="xml动画"
+        android:onClick="clickBtn8"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn8"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="ValueAnimator,TimeInterpolator,TypeEvaluator"
+        android:onClick="clickBtn9"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.paintPathCanvas.PathActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn1"
+        android:onClick="clickBtn1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn2"
+        android:onClick="clickBtn2"
+        app:layout_constraintLeft_toRightOf="@id/btn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn3"
+        android:onClick="clickBtn3"
+        app:layout_constraintLeft_toRightOf="@id/btn2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn4"
+        android:onClick="clickBtn4"
+        app:layout_constraintLeft_toRightOf="@id/btn3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn5"
+        android:onClick="clickBtn5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn6"
+        android:onClick="clickBtn6"
+        app:layout_constraintLeft_toRightOf="@id/btn5"
+        app:layout_constraintTop_toBottomOf="@id/btn2" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn7"
+        android:onClick="clickBtn7"
+        app:layout_constraintLeft_toRightOf="@id/btn6"
+        app:layout_constraintTop_toBottomOf="@id/btn3" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn8"
+        android:onClick="clickBtn8"
+        app:layout_constraintLeft_toRightOf="@id/btn7"
+        app:layout_constraintTop_toBottomOf="@id/btn4" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn9"
+        android:onClick="clickBtn9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn5"/>
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn10"
+        android:onClick="clickBtn10"
+        app:layout_constraintLeft_toRightOf="@id/btn9"
+        app:layout_constraintTop_toBottomOf="@id/btn6"/>
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn11"
+        android:onClick="clickBtn11"
+        app:layout_constraintLeft_toRightOf="@id/btn10"
+        app:layout_constraintTop_toBottomOf="@id/btn7"/>
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn12"
+        android:onClick="clickBtn12"
+        app:layout_constraintLeft_toRightOf="@id/btn11"
+        app:layout_constraintTop_toBottomOf="@id/btn8"/>
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn13"
+        android:onClick="clickBtn13"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn9"/>
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn14"
+        android:onClick="clickBtn14"
+        app:layout_constraintLeft_toRightOf="@id/btn13"
+        app:layout_constraintTop_toBottomOf="@id/btn10"/>
+
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn15"
+        android:onClick="clickBtn15"
+        app:layout_constraintLeft_toRightOf="@id/btn14"
+        app:layout_constraintTop_toBottomOf="@id/btn11"/>
+
+    <ImageView
+        android:id="@+id/IV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn13"
+        android:layout_marginTop="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

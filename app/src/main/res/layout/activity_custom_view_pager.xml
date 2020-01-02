@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.androiddemokt.ui.customViewPager.MyCustomViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.customViewPager.CustomViewPagerActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:text="我是第一个View"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:text="我是第二个View"
+        android:background="@color/blue"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:text="我是第三个View"
+        android:background="@color/green"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:text="我是第四个View"
+        android:background="@color/colorAccent"/>
+
+
+</com.example.androiddemokt.ui.customViewPager.MyCustomViewPager>

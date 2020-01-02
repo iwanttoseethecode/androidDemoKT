@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">androidDemoKt</string>
+    <string name="title_home">ui基础</string>
+    <string name="title_dashboard">自定义</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="prompt">请选择</string>
+
+    <array name="paint2">
+        <item>StrokeCap示例</item>
+        <item>StokeJoin示例</item>
+        <item>CornerPathEffect示例</item>
+        <item>CornerPathEffect DEMO曲线</item>
+        <item>DashPathEffect DEMO 效果</item>
+        <item>DiscretePathEffect DEMO效果</item>
+        <item>PathDashPathEffect效果</item>
+        <item>PathDashPathEffect DEMO效果</item>
+        <item>ComposePathEffect与SumPathEffect</item>
+        <item>SubpixelText Demo</item>
+    </array>
+
+    <string-array name="xformodeString">
+        <item>心电图</item>
+        <item>波浪圆球图</item>
+        <item>橡皮檫控件</item>
+        <item>刮刮卡</item>
+    </string-array>
+
+    <string-array name="maskOrColorFilter">
+        <item>模糊-normal</item>
+        <item>模糊-solid</item>
+        <item>模糊-outer</item>
+        <item>模糊-inner</item>
+        <item>浮雕效果</item>
+        <item>滤镜-颜色通道加法</item>
+        <item>滤镜-底片效果</item>
+        <item>滤镜-颜色增强</item>
+        <item>滤镜-黑白照片</item>
+        <item>滤镜-发色效果</item>
+        <item>滤镜-复古效果</item>
+        <item>滤镜-过滤颜色通道</item>
+        <item>滤镜-颜色系数缩放</item>
+        <item>滤镜-颜色饱和度</item>
+        <item>滤镜-某个颜色通道角度旋转</item>
+        <item>亮度-红色亮度修改</item>
+        <item>亮度-绿色亮度修改</item>
+        <item>亮度-蓝色亮度修改</item>
+        <item>亮度-rgb亮度修改</item>
+        <item>PorterDuff-蓝色dst_in</item>
+        <item>PorterDuff-绿色src_atop</item>
+        <item>PorterDuff-红色src_in</item>
+    </string-array>
+
+    <array name="Shadow1">
+        <item>阴影显示</item>
+        <item>线性渐变</item>
+        <item>径向渐变</item>
+        <item>五子棋盘</item>
+        <item>扫描渐变</item>
+        <item>位图渐变</item>
+        <item>混合渐变</item>
+        <item>渐变和矩阵</item>
+        <item>文字高亮</item>
+        <item>图片放大镜</item>
+    </array>
+
+    <array name="layer1">
+        <item>圆形头像</item>
+        <item>机器人边界头像</item>
+        <item>刮刮乐</item>
+    </array>
+
+    <string-array name="pathMeasureUse">
+        <item>垃圾桶</item>
+        <item>PathMeasure基础</item>
+        <item>加载动画</item>
+        <item>加载圈</item>
+        <item>小船飘飘</item>
+        <item>头部空间</item>
+    </string-array>
+
+</resources>

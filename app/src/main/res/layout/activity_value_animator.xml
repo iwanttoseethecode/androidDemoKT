@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newAnimation.ValueAnimatorActivity">
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="resetBtn"
+        android:text="复位"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn1"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resetBtn"
+        android:text="LinearInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn2"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        android:text="AccelerateDecelerateInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn3"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn2"
+        android:text="AccelerateInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn4"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn3"
+        android:text="DecelerateInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn5"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn4"
+        android:text="AnticipateInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn6"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn5"
+        android:text="CycleInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn7"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn6"
+        android:text="BounceInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn8"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn7"
+        android:text="AnticipateOvershootInterpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn9"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn8"
+        android:text="自定义Interpolator"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn10"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn9"
+        android:text="自定义抛物线运动"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/runningboll"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bule_cricle_shape"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

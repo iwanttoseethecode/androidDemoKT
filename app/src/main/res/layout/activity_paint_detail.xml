@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.paintPathCanvas.PaintDetailActivity">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/selectSpinner"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/paint2"
+        android:prompt="@string/prompt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androiddemokt.ui.paintPathCanvas.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selectSpinner"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

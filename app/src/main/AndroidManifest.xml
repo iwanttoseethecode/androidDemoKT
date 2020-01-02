@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androiddemokt">
+
+    <application
+        android:name=".baseComponent.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.headerFooter.HeaderFooterRecyclerActivity"></activity>
+        <activity android:name=".ui.customViewPager.CustomViewPagerActivity" />
+        <activity android:name=".ui.waterfallLayout.WaterfallActivity" />
+        <activity android:name=".ui.flowLayout.FlowLayoutActivity" />
+        <activity android:name=".ui.circleProgressBar.CircleProgressBarActivity" />
+        <activity android:name=".ui.targetCricle.TargetCircleActivity" />
+        <activity android:name=".ui.drawble.DrawbleActivity" />
+        <activity android:name=".ui.pathMeasure.PathMeasureActivity" />
+        <activity android:name=".ui.coordinateChange.CoordinateActivity" />
+        <activity android:name=".ui.xformode.XformodeDemo2Activity" />
+        <activity android:name=".ui.shadow.ShadowActivity" />
+        <activity android:name=".ui.doubleCache.DrawRectActivity" />
+        <activity android:name=".ui.doubleCache.TabletActivity" />
+        <activity android:name=".ui.Graphics2D.WatchActivity" />
+        <activity android:name=".ui.Graphics2D.BoomActivity" />
+        <activity android:name=".ui.Graphics2D.ClipActivity" />
+        <activity android:name=".ui.colorFilter.ColorFilterActivity" />
+        <activity android:name=".ui.xformode.XformodeDemoActivity" />
+        <activity android:name=".ui.xformode.XformodeActivity" />
+        <activity android:name=".ui.paintPathCanvas.PathActivity" />
+        <activity android:name=".ui.paintPathCanvas.PaintDetailActivity" />
+        <activity android:name=".ui.paintPathCanvas.FirstPaintCanvasActivity" />
+        <activity android:name=".ui.newAnimation.ValueAnimatorActivity" />
+        <activity android:name=".ui.newAnimation.AnimationActivity" />
+        <activity android:name=".ui.propertyAnimation.CoinActivity" />
+        <activity
+            android:name=".ui.mainPage.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

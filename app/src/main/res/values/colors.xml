@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="mybule">#4272F5</color>
+    <color name="blue">#00c6ff</color>
+    <color name="green">#00e099</color>
+    <color name="pink">#ff3892</color>
+    <color name="orange">#ff9600</color>
+    <color name="aqua">#02d1ac</color>
+    <color name="yellow">#ffd200</color>
+    <color name="purple">#a430a8</color>
+    <color name="grey">#555555</color>
+
+</resources>

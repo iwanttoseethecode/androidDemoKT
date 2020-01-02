@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Graphics2D.ClipActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="DIFFERENCE"
+        android:onClick="clickBtn1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="REVERSE_DIFFERENCE"
+        android:onClick="clickBtn2"
+        app:layout_constraintLeft_toRightOf="@id/barrier1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="INTERSECT"
+        android:onClick="clickBtn3"
+        app:layout_constraintLeft_toRightOf="@id/barrier2"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="REPLACE"
+        android:onClick="clickBtn4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="UNION"
+        android:onClick="clickBtn5"
+        app:layout_constraintLeft_toRightOf="@id/barrier1"
+        app:layout_constraintTop_toBottomOf="@id/btn2"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="XOR"
+        android:onClick="clickBtn6"
+        app:layout_constraintLeft_toRightOf="@id/barrier2"
+        app:layout_constraintTop_toBottomOf="@id/btn3"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="btn1,btn4"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="btn2,btn5"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="btn3,btn6"/>
+
+    <com.example.androiddemokt.ui.Graphics2D.view.ClipView
+        android:id="@+id/clipView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
